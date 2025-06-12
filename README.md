@@ -19,15 +19,22 @@ This repository provides a complete simulation, preprocessing, and detection pip
 ## 📁 Repository Structure
 
 GNSS-Detection/
-├── data_simulate.py # Simulates GNSS signals & saves dataset
-├── run_xgboost.py # XGBoost training & evaluation script
-├── run_deep_learning.py # Deep Learning model training (optional: CNN/LSTM/MLP)
-├── EDA_ORG.ipynb # Step-by-step Exploratory Data Analysis
-├── gnss_dataset.csv # Flattened CSV for ML model input
-├── gnss_dataset.npy # Raw simulated array format
-├── models/ # (Optional) saved models
-└── README.md # Documentation file
 
+├── data_simulate.py # Simulates GNSS signals & saves dataset
+
+├── run_xgboost.py # XGBoost training & evaluation script
+
+├── run_deep_learning.py # Deep Learning model training (optional: CNN/LSTM/MLP)
+
+├── EDA_ORG.ipynb # Step-by-step Exploratory Data Analysis
+
+├── gnss_dataset.csv # Flattened CSV for ML model input
+
+├── gnss_dataset.npy # Raw simulated array format
+
+├── models/ # (Optional) saved models
+
+└── README.md # Documentation file
 
 ---
 
