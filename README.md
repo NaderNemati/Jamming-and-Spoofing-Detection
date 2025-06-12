@@ -137,6 +137,5 @@ Each GNSS sample contains:
 
 📌 References
 
-    GNSS simulation design inspired by 
-  [AliCMU](https://github.com/alicmu2024/GNSS-Jamming-Detection-and-Classification-using-Machine-Learning-Deep-Learning-and-Computer-Vision) GNSS Jamming Detection repo
+GNSS simulation design inspired by [AliCMU](https://github.com/alicmu2024/GNSS-Jamming-Detection-and-Classification-using-Machine-Learning-Deep-Learning-and-Computer-Vision) GNSS Jamming Detection repo
     Feature engineering and models are structured for research reproducibility
