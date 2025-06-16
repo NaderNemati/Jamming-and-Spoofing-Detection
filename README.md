@@ -10,8 +10,8 @@ This repository provides a complete simulation, preprocessing, and detection pip
 - ✅ Generate large synthetic datasets for supervised machine learning.
 - ✅ Explore and visualize signal characteristics to understand spoofing/jamming effects.
 - ✅ Train and evaluate both:
-  - 🌲 XGBoost model (feature-based)
-  - 🤖 Deep Learning model (vision-style / time series-based)
+  - 🌲 XGBoost model
+  - 🤖 Deep Learning model
 - ✅ Achieve high-accuracy detection of GNSS interference.
 
 ---
@@ -24,7 +24,7 @@ GNSS-Detection/
 
 ├── run_xgboost.py # XGBoost training & evaluation script
 
-├── run_deep_learning.py # Deep Learning model training (optional: CNN/LSTM/MLP)
+├── run_deep_learning.py # Deep Learning model training
 
 ├── EDA_ORG.ipynb # Step-by-step Exploratory Data Analysis
 
@@ -32,7 +32,7 @@ GNSS-Detection/
 
 ├── gnss_dataset.npy # Raw simulated array format
 
-├── models/ # (Optional) saved models
+├── models/ # Saved models
 
 └── README.md # Documentation file
 
@@ -126,7 +126,7 @@ Deep Learning:
 
     Spoofing Detection: Based on abnormally high and consistent C/N₀
 
-    Jamming Detection: Detected by sudden drop in C/N₀ across satellites
+    Jamming Detection: Detected by a sudden drop in C/N₀ across satellites
 
     Outlier Detection (optional): Supports unsupervised Isolation Forest fallback
 
